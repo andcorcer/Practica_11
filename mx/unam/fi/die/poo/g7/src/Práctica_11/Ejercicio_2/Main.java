@@ -26,7 +26,8 @@ public class Main {
         // Intentamos leer el contenido del archivo y mostrarlo en el JTextArea
         try {
             String contenido = Files.readString(Path.of(rutaArchivo));
-            textArea.setText(contenido);
+            int cantidadPalabras = contenido.split("\\s+").length; // Separamos el contenido en palabras usando espacios como delimitador
+            textArea.setText("Cantidad de palabras: " + cantidadPalabras + "\n\n" + contenido);
         } catch (IOException e) {
             textArea.setText("No se pudo leer el archivo: " + rutaArchivo + " -| " + e.getMessage());
         }
