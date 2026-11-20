@@ -12,6 +12,6 @@
 
 **Brigada:** 6  
 
-Link a archivo LaTeX `https://www.overleaf.com/project/6aff5fcfa418332365e0f4a1/share#6b5736c752a34ca0eba23596635c52df182662ebee4159e8`
+Link a archivo LaTeX ``
 
 Link a video ``
